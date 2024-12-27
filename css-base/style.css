@@ -1,0 +1,59 @@
+@import url(/css/filters.css);
+@import url(/css/footer.css);
+@import url(/css/form.css);
+@import url(/css/header.css);
+@import url(/css/icon.css);
+@import url(/css/main.css);
+
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+
+/****** General ***********/
+* {
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    min-width: 320px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+h1,
+h2{
+    font-size: 22px;
+    line-height: 26px;
+}
+
+h3{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+h4{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.border{
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.062);
+    height: 100%;
+    padding-bottom: 20px;
+}

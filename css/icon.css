@@ -1,0 +1,83 @@
+
+/* étoiles notation */
+.fa-solid{
+    color: var(--main-color);
+}
+
+.neutral-star{
+    color: var(--main-bg-color);
+}
+
+/* propriétés communes icon */
+
+.icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid);
+    color: var(--main-color);
+    font-weight: 900;
+}
+
+/* icons form*/
+
+
+/* icons filters*/
+
+.money::before {
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+    content: '\f53a';
+}
+
+.person::before {
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+    content: '\f183';
+}
+
+.heart::before {
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+    content: '\f004';
+}
+
+.fire::before {
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+    content: '\f06d';
+}
+
+
+/* icons infobar*/
+
+.logo-info{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid var(--main-bg-color);
+    color: var(--main-color);
+}
+
+.logo-info::after {
+    font-family: 'FontAwesome';
+    content: '\f129';
+    color: var(--main-color);
+    width: 4px;
+    height: 10px;
+    padding: 0px 7px 10px 5px;
+}
+
+.logo-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* icons section populaire*/
+
+.statistique::before {
+    font-family: 'FontAwesome';
+    content: '\f201';
+}
+

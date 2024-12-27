@@ -1,0 +1,42 @@
+/********** Filtres ***********/
+#filters{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#filters li{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#filters p{
+    font-size: 18px;
+}
+
+.filters-content{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.filters-content i{
+    width: 22px;
+    margin-right: 8px;
+    color: var(--main-color);
+}
+
+.filters-content li{
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    padding: 13px 19px 13px 19px;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.filters-content li:hover{
+    background-color: #DEEBFF;
+}
